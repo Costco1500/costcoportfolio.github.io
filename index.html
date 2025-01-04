@@ -255,6 +255,32 @@
             border: none;
         }
 
+        .video-description {
+            background: rgba(43, 45, 66, 0.3);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(141, 153, 174, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .video-description h4 {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .video-description p {
+            color: var(--light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .video-showcase-item {
+            margin-bottom: 3rem;
+        }
+
         .about-me {
             background: rgba(43, 45, 66, 0.3);
             border-radius: 12px;
@@ -402,37 +428,79 @@
 
         <h2 style="margin-top: 4rem;">Video Showcase</h2>
         <div class="video-showcase">
-            <div class="video-container">
-                <iframe
-                    src="https://www.youtube.com/embed/Ef1BFrU695c"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+            <div class="video-showcase-item">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/Ef1BFrU695c"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h4>Story Game</h4>
+                    <p>A showcase of my story game development process, with cutscenes and player interaction systems.</p>
+                </div>
             </div>
-            <div class="video-container">
-                <iframe
-                    src="https://www.youtube.com/embed/QwlIdVghREo"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+
+            <div class="video-showcase-item">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/QwlIdVghREo"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h4>Simple obby with gamepass mechanics</h4>
+                    <p>A showcase of my simple obby game with gamepass mechanics.</p>
+                </div>
             </div>
-            <div class="video-container">
-                <iframe
-                    src="https://www.youtube.com/embed/d8lJnCZxEbE"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+
+            <div class="video-showcase-item">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/d8lJnCZxEbE"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h4>Throwing System</h4>
+                    <p>A showcase of my advanced throwing system featuring smooth animations. This system includes custom sound design and player interaction systems.</p>
+                </div>
             </div>
-            <div class="video-container">
-                <iframe
-                    src="https://www.youtube.com/embed/kOWnNE_HhBg"
-                    title="YouTube video player"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+
+            <div class="video-showcase-item">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/kOWnNE_HhBg"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h4>Advanced Combat System</h4>
+                    <p>A showcase of my advanced combat system featuring smooth animations, hitbox detection, and damage calculations. This system includes combo mechanics and special abilities.</p>
+                </div>
+            </div>
+
+            <div class="video-showcase-item">
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/nMHZY8ckf70"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description">
+                    <h4>Ragdoll and Checkpoint System</h4>
+                    <p>A showcase of my advanced ragdoll and checkpoint systems, including custom character physics, ragdoll behavior, and checkpoint teleportation.</p>
+                </div>
             </div>
         </div>
     </section>
